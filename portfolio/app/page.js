@@ -8,6 +8,7 @@ import Navbar from "./components/Navbar";
 import Service from "./components/Service";
 import Work from "./components/Work";
 import Footer from "./components/Footer";
+import Merquee from "./components/Merquee";
 
 
 export default function Home() {
@@ -36,7 +37,8 @@ export default function Home() {
       <Header isDarkMode={isDarkMode} setIsDarkMode={setIsDarkMode}/>
       <About isDarkMode={isDarkMode} setIsDarkMode={setIsDarkMode}/>
       <Service isDarkMode={isDarkMode}/>
-      <Work isDarkMode={isDarkMode}/>
+      <Work isDarkMode={isDarkMode} />
+      <Merquee isDarkMode={isDarkMode} ></Merquee>
       <Contact isDarkMode={isDarkMode}/>
       <Footer isDarkMode={isDarkMode}/>
     </>
