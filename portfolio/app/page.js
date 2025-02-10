@@ -9,7 +9,9 @@ import Service from "./components/Service";
 import Work from "./components/Work";
 import Footer from "./components/Footer";
 import Merquee from "./components/Merquee";
-
+import BlogSection from "./components/BlogSection";
+import Hireme from "./components/Hireme";
+import ImageCard from "./components/RadiusCard";
 
 export default function Home() {
   const [isDarkMode, setIsDarkMode] = useState(false);
@@ -36,11 +38,14 @@ export default function Home() {
       <Navbar isDarkMode={isDarkMode} setIsDarkMode={setIsDarkMode} />
       <Header isDarkMode={isDarkMode} setIsDarkMode={setIsDarkMode}/>
       <About isDarkMode={isDarkMode} setIsDarkMode={setIsDarkMode}/>
-      <Service isDarkMode={isDarkMode}/>
+      <Service isDarkMode={isDarkMode} />
+      <Hireme isDarkMode={isDarkMode}></Hireme>
       <Work isDarkMode={isDarkMode} />
       <Merquee isDarkMode={isDarkMode} ></Merquee>
+      <BlogSection></BlogSection>
       <Contact isDarkMode={isDarkMode}/>
-      <Footer isDarkMode={isDarkMode}/>
+      <Footer isDarkMode={isDarkMode} />
+  <ImageCard></ImageCard>
     </>
   );
 }

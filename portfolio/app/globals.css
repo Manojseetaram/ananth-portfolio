@@ -5,3 +5,7 @@
 *{
   font-family: Outfit;
 }
+.mask-inverted {
+  -webkit-mask-image: radial-gradient(circle, transparent 60%, black 70%);
+  mask-image: radial-gradient(circle, transparent 60%, black 70%);
+}

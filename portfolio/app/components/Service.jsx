@@ -33,7 +33,7 @@ import Image from 'next/image';
 
 const Service = () => {
   return (
-    <div id="services" className="w-full max-w-7xl mx-auto px-6 sm:px-10 lg:px-16 py-10 scroll-mt-20">
+    <div id="services" className="w-full px-6 sm:px-10 lg:px-16 py-10 scroll-mt-20" >
       {/* Section Title */}
       <h4 className="text-center mb-2 text-lg font-Ovo">What I offer</h4>
       <h2 className="text-center text-3xl sm:text-4xl lg:text-5xl font-Ovo">My Service</h2>

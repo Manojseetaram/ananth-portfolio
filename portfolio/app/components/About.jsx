@@ -12,7 +12,7 @@ const About = () => {
       <div className="flex flex-col lg:flex-row items-center lg:items-start gap-10 lg:gap-16 my-16">
         {/* User Image */}
         <div className="w-40 sm:w-56 lg:w-64 mx-auto lg:mx-0 rounded-3xl">
-          <Image src={assets.user_image} alt="user" className="w-full h-auto rounded-3xl" />
+          <Image src={assets.profile_img} alt="user" className="w-full h-auto rounded-3xl" />
         </div>
 
         {/* Info Section */}
